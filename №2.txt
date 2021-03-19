@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{ /* Виконання завдання №2 варіант №16, студент групи 109, Стрельченко Альона Ігорівна*/
+int a,b,c,d;
+cin>>a; 
+cin>>b;
+cin>>c;
+cin>>d;
+if (a%2==0){
+cout<<"guy";}
+
+if(b%2==0){
+cout<<"guy";}
+
+if(c%2==0){
+cout<<"guy";}
+
+if(d%2==0){
+cout<<"guy";}
+return 0;
+}

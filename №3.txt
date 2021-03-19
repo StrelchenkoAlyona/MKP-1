@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{ /* Виконання завдання №3 варіант №16, студент групи 109, Стрельченко Альона Ігорівна*/
+double m ,k, n;
+n= 1+rand()%1000+1;
+cout<<"n="<<n<<endl;
+cin>>m;
+k= pow((n / m),2);
+cout<<"k="<<k<<endl;
+return 0;
+}
